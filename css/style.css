@@ -77,16 +77,6 @@ body {
   line-height: 103px;
 }
 
-.main-nav.navbar-default .navbar-collapse {
-  border: none;
-  /*margin-left: -30px;*/
-}
-
-.main-nav.navbar-default .navbar-collapse a {
-  line-height: normal;
-  padding: 0 20px;
-}
-
 /*Hero*/
 
 .hero {
@@ -363,6 +353,15 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .main-nav.navbar-default .navbar-collapse {
+    border: none;
+    /*margin-left: -30px;*/
+  }
+
+  .main-nav.navbar-default .navbar-collapse a {
+    line-height: normal;
+    padding: 0 20px;
+  }
   .main-footer {
     text-align: center;
   }
